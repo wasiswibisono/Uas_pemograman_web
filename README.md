@@ -3,10 +3,10 @@
 
 |Nama|NIM|Kelas|Mata Kuliah|
 |----|---|-----|------|
-|**Radityatama Nugraha**|**312310644**|**TI.23.A6**|**Pemrograman Web1**|
+|**Wasis Wibisono**|**312310661**|**TI.23.A6**|**Pemrograman Web**|
 
 ## • Mengedit Informasi Tentang Makanan
-![gambar](kulinerku/screenshot-project/ss-1.png)
+![gambar](kulinerku/screenshot-project/ss1.png)
 
 ## • Menu-Menu Makanan
 ![gambar](kulinerku/screenshot-project/ss-2.png)
