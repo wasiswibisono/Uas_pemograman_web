@@ -1,0 +1,4 @@
+ALTER TABLE kuliner ADD COLUMN kodol.jpg(255) NULL;
+ALTER TABLE kuliner 
+ADD kodok.jpg VARCHAR(255) NULL, 
+ADD COLUMN deskripsi TEXT NOT NULL;

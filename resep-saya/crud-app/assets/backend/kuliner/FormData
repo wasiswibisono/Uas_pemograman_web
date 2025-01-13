@@ -1,0 +1,25 @@
+$("#crudForm").submit(function (e) {
+    e.preventDefault();
+
+    const formData = new FormData();
+    formData.append("id", $("#id").val());
+    formData.append("nama", $("#nama").val());
+    formData.append("lokasi", $("#lokasi").val());
+    formData.append("rating", $("#rating").val());
+    formData.append("deskripsi", $("#deskripsi").val());
+    formData.append("gambar", $("#gambar")[0].files[0]); // bakso.jpg
+
+    const url = $("#id").val() ? "backend/update.php" : "backend/create.php";
+
+    $.ajax({
+        url: url,
+        type: "POST",
+        data: formData,
+        processData: false,
+        contentType: false,
+        success: () => {
+            $("#crudModal").modal("hide");
+            loadData(); // Memuat ulang data di tabel
+        },
+    });
+});

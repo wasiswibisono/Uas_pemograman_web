@@ -1,0 +1,15 @@
+<table id="crudTable" class="table table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Lokasi</th>
+            <th>Rating</th>
+            <th>Deskripsi</th>
+            <th>Gambar</th>
+            <th class="text-center">Aksi</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>

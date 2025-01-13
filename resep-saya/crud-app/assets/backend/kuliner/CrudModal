@@ -1,0 +1,28 @@
+<div class="modal-body">
+    <form id="crudForm" enctype="multipart/form-data">
+        <input type="hidden" id="id">
+        <div class="form-floating mb-3">
+            <input type="text" id="nama" class="form-control" placeholder="Nama Kuliner" required>
+            <label for="nama">Nama</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" id="lokasi" class="form-control" placeholder="Lokasi" required>
+            <label for="lokasi">Lokasi</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="number" id="rating" class="form-control" placeholder="Rating (1-5)" min="1" max="5" step="0.1" required>
+            <label for="rating">Rating</label>
+        </div>
+        <div class="form-floating mb-3">
+            <textarea id="deskripsi" class="form-control" placeholder="Deskripsi" style="height: 100px;" required></textarea>
+            <label for="deskripsi">Deskripsi</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="file" id="gambar" class="form-control" accept="image/*">
+            <label for="gambar">Gambar</label>
+        </div>
+        <div class="d-grid">
+            <button type="submit" class="btn btn-success">Simpan</button>
+        </div>
+    </form>
+</div>

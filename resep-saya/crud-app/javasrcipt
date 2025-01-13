@@ -1,0 +1,6 @@
+document.getElementById("addRecordBtn").addEventListener("click", function () {
+    document.getElementById("crudForm").reset(); // Reset form modal
+    document.getElementById("id").value = ""; // Kosongkan ID untuk tambah
+    const modal = new bootstrap.Modal(document.getElementById("crudModal"));
+    modal.show();
+});

@@ -1,0 +1,13 @@
+CREATE DATABASE kuliner_app;
+
+USE kuliner_app;
+
+CREATE TABLE kuliner (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(150) NOT NULL,
+    lokasi VARCHAR(255) NOT NULL,
+    rating DECIMAL(3, 2) NOT NULL
+
+);
+
+
